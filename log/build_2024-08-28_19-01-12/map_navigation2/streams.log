@@ -1,0 +1,90 @@
+[1.365s] Invoking command in '/home/dars/kameyama_galactic_ws/build/map_navigation2': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/dars/kameyama_galactic_ws/build/map_navigation2/build
+[1.893s] running develop
+[1.893s] /home/dars/.local/lib/python3.8/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.894s] !!
+[1.894s] 
+[1.894s]         ********************************************************************************
+[1.894s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.894s]         Instead, use pypa/build, pypa/installer or other
+[1.894s]         standards-based tools.
+[1.894s] 
+[1.894s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.894s]         ********************************************************************************
+[1.895s] 
+[1.895s] !!
+[1.895s]   easy_install.initialize_options(self)
+[2.295s] Removing /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2.egg-link (link to .)
+[2.335s] Invoked command in '/home/dars/kameyama_galactic_ws/build/map_navigation2' returned '0': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/dars/kameyama_galactic_ws/build/map_navigation2/build
+[2.340s] Invoking command in '/home/dars/kameyama_galactic_ws/src/map_navigation2': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data --force
+[2.759s] running egg_info
+[2.787s] writing ../../build/map_navigation2/map_navigation2.egg-info/PKG-INFO
+[2.788s] writing dependency_links to ../../build/map_navigation2/map_navigation2.egg-info/dependency_links.txt
+[2.788s] writing entry points to ../../build/map_navigation2/map_navigation2.egg-info/entry_points.txt
+[2.789s] writing requirements to ../../build/map_navigation2/map_navigation2.egg-info/requires.txt
+[2.789s] writing top-level names to ../../build/map_navigation2/map_navigation2.egg-info/top_level.txt
+[3.047s] reading manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+[3.048s] writing manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+[3.048s] running build
+[3.048s] running build_py
+[3.049s] creating /home/dars/kameyama_galactic_ws/build/map_navigation2/build
+[3.049s] creating /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib
+[3.049s] creating /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.049s] copying map_navigation2/second_move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.049s] copying map_navigation2/path_uncertainty.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.059s] copying map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.059s] copying map_navigation2/circle_movement.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.059s] copying map_navigation2/camera.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.059s] copying map_navigation2/changetopicname.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.060s] copying map_navigation2/__init__.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.060s] copying map_navigation2/picture_tracking.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.060s] copying map_navigation2/tf2twist.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.060s] copying map_navigation2/world.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[3.060s] running install
+[3.067s] running install_lib
+[3.097s] creating /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.097s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/second_move_robot.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.097s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/path_uncertainty.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/circle_movement.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/camera.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/changetopicname.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/__init__.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/picture_tracking.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.098s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/tf2twist.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.099s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/world.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[3.099s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/second_move_robot.py to second_move_robot.cpython-38.pyc
+[3.099s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/path_uncertainty.py to path_uncertainty.cpython-38.pyc
+[3.100s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/move_robot.py to move_robot.cpython-38.pyc
+[3.101s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/circle_movement.py to circle_movement.cpython-38.pyc
+[3.102s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/camera.py to camera.cpython-38.pyc
+[3.102s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/changetopicname.py to changetopicname.cpython-38.pyc
+[3.103s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/__init__.py to __init__.cpython-38.pyc
+[3.103s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/picture_tracking.py to picture_tracking.cpython-38.pyc
+[3.104s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/tf2twist.py to tf2twist.cpython-38.pyc
+[3.104s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/world.py to world.cpython-38.pyc
+[3.105s] running install_data
+[3.105s] copying resource/map_navigation2 -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index/packages
+[3.105s] copying package.xml -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.105s] copying launch/circle_movement_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.105s] copying launch/changetopicname_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.105s] copying launch/world_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/second_move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/camera_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/picture_tracking_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/tf2twist_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] copying launch/path_uncertainty_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[3.106s] running install_egg_info
+[3.137s] Copying ../../build/map_navigation2/map_navigation2.egg-info to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2-0.0.0-py3.8.egg-info
+[3.138s] running install_scripts
+[3.219s] Installing camera script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.219s] Installing changetopicname script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing circle_movement script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing path_uncertainty script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing picture_tracking script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing second_move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing tf2twist script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.220s] Installing world script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[3.221s] writing list of installed files to '/home/dars/kameyama_galactic_ws/build/map_navigation2/install.log'
+[3.254s] Invoked command in '/home/dars/kameyama_galactic_ws/src/map_navigation2' returned '0': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data --force

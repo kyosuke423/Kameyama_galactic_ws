@@ -1,0 +1,1 @@
+/home/dars/kameyama_galactic_ws/src/map_navigation2/launch/picture_tracking_launch.py

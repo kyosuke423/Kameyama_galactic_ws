@@ -1,0 +1,46 @@
+running egg_info
+writing ../../build/map_navigation2/map_navigation2.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_navigation2/map_navigation2.egg-info/dependency_links.txt
+writing entry points to ../../build/map_navigation2/map_navigation2.egg-info/entry_points.txt
+writing requirements to ../../build/map_navigation2/map_navigation2.egg-info/requires.txt
+writing top-level names to ../../build/map_navigation2/map_navigation2.egg-info/top_level.txt
+reading manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying map_navigation2/second_move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/circle_movement.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/camera.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/changetopicname.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/picture_tracking.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/tf2twist.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+copying map_navigation2/world.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+running install
+running install_lib
+copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/move_robot.py to move_robot.cpython-38.pyc
+running install_data
+copying package.xml -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/circle_movement_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/changetopicname_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/world_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/second_move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/camera_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/picture_tracking_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+copying launch/tf2twist_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+running install_egg_info
+removing '/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/map_navigation2/map_navigation2.egg-info to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing changetopicname script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing circle_movement script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing path_uncertainty script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing picture_tracking script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing second_move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing tf2twist script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing world script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+writing list of installed files to '/home/dars/kameyama_galactic_ws/build/map_navigation2/install.log'

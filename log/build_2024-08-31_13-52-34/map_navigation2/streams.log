@@ -1,0 +1,48 @@
+[0.760s] Invoking command in '/home/dars/kameyama_galactic_ws/src/map_navigation2': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.977s] writing ../../build/map_navigation2/map_navigation2.egg-info/PKG-INFO
+[0.988s] writing dependency_links to ../../build/map_navigation2/map_navigation2.egg-info/dependency_links.txt
+[0.988s] writing entry points to ../../build/map_navigation2/map_navigation2.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/map_navigation2/map_navigation2.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/map_navigation2/map_navigation2.egg-info/top_level.txt
+[1.115s] reading manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+[1.116s] writing manifest file '../../build/map_navigation2/map_navigation2.egg-info/SOURCES.txt'
+[1.116s] running build
+[1.117s] running build_py
+[1.118s] copying map_navigation2/second_move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.118s] copying map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.118s] copying map_navigation2/circle_movement.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.118s] copying map_navigation2/camera.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.119s] copying map_navigation2/changetopicname.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.119s] copying map_navigation2/picture_tracking.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.119s] copying map_navigation2/tf2twist.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.119s] copying map_navigation2/world.py -> /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2
+[1.119s] running install
+[1.123s] running install_lib
+[1.137s] copying /home/dars/kameyama_galactic_ws/build/map_navigation2/build/lib/map_navigation2/move_robot.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2
+[1.138s] byte-compiling /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2/move_robot.py to move_robot.cpython-38.pyc
+[1.138s] running install_data
+[1.138s] copying package.xml -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.139s] copying launch/circle_movement_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.139s] copying launch/changetopicname_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.139s] copying launch/world_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.139s] copying launch/move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.140s] copying launch/second_move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.140s] copying launch/camera_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.140s] copying launch/picture_tracking_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.140s] copying launch/tf2twist_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[1.140s] running install_egg_info
+[1.154s] removing '/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2-0.0.0-py3.8.egg-info' (and everything under it)
+[1.155s] Copying ../../build/map_navigation2/map_navigation2.egg-info to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2-0.0.0-py3.8.egg-info
+[1.156s] running install_scripts
+[1.194s] Installing camera script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.194s] Installing changetopicname script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.194s] Installing circle_movement script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.194s] Installing move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] Installing path_uncertainty script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] Installing picture_tracking script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] Installing second_move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] Installing tf2twist script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] Installing world script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[1.195s] writing list of installed files to '/home/dars/kameyama_galactic_ws/build/map_navigation2/install.log'
+[1.210s] Invoked command in '/home/dars/kameyama_galactic_ws/src/map_navigation2' returned '0': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data

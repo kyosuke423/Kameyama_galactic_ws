@@ -1,0 +1,54 @@
+[1.379s] Invoking command in '/home/dars/kameyama_galactic_ws/build/map_navigation2': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dars/kameyama_galactic_ws/build/map_navigation2/build --no-deps symlink_data
+[1.945s] running develop
+[1.945s] /home/dars/.local/lib/python3.8/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.945s] !!
+[1.945s] 
+[1.945s]         ********************************************************************************
+[1.946s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.946s]         Instead, use pypa/build, pypa/installer or other
+[1.946s]         standards-based tools.
+[1.946s] 
+[1.946s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.946s]         ********************************************************************************
+[1.946s] 
+[1.946s] !!
+[1.946s]   easy_install.initialize_options(self)
+[2.343s] running egg_info
+[2.343s] creating map_navigation2.egg-info
+[2.382s] writing map_navigation2.egg-info/PKG-INFO
+[2.383s] writing dependency_links to map_navigation2.egg-info/dependency_links.txt
+[2.383s] writing entry points to map_navigation2.egg-info/entry_points.txt
+[2.383s] writing requirements to map_navigation2.egg-info/requires.txt
+[2.383s] writing top-level names to map_navigation2.egg-info/top_level.txt
+[2.385s] writing manifest file 'map_navigation2.egg-info/SOURCES.txt'
+[2.447s] reading manifest file 'map_navigation2.egg-info/SOURCES.txt'
+[2.447s] writing manifest file 'map_navigation2.egg-info/SOURCES.txt'
+[2.522s] running build_ext
+[2.523s] Creating /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2.egg-link (link to .)
+[2.524s] Installing camera script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.524s] Installing changetopicname script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.524s] Installing circle_movement script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.524s] Installing move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] Installing path_uncertainty script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] Installing picture_tracking script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] Installing second_move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] Installing tf2twist script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] Installing world script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+[2.525s] 
+[2.526s] Installed /home/dars/kameyama_galactic_ws/build/map_navigation2
+[2.526s] running symlink_data
+[2.526s] creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index
+[2.526s] creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index
+[2.526s] creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index/packages
+[2.526s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/resource/map_navigation2 -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index/packages
+[2.526s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/package.xml -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/circle_movement_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/changetopicname_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/world_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/second_move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/camera_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/picture_tracking_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/tf2twist_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.527s] symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/path_uncertainty_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+[2.571s] Invoked command in '/home/dars/kameyama_galactic_ws/build/map_navigation2' returned '0': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dars/kameyama_galactic_ws/build/map_navigation2/build --no-deps symlink_data

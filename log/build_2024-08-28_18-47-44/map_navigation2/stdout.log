@@ -1,0 +1,39 @@
+running develop
+running egg_info
+creating map_navigation2.egg-info
+writing map_navigation2.egg-info/PKG-INFO
+writing dependency_links to map_navigation2.egg-info/dependency_links.txt
+writing entry points to map_navigation2.egg-info/entry_points.txt
+writing requirements to map_navigation2.egg-info/requires.txt
+writing top-level names to map_navigation2.egg-info/top_level.txt
+writing manifest file 'map_navigation2.egg-info/SOURCES.txt'
+reading manifest file 'map_navigation2.egg-info/SOURCES.txt'
+writing manifest file 'map_navigation2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages/map_navigation2.egg-link (link to .)
+Installing camera script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing changetopicname script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing circle_movement script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing path_uncertainty script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing picture_tracking script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing second_move_robot script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing tf2twist script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+Installing world script to /home/dars/kameyama_galactic_ws/install/map_navigation2/lib/map_navigation2
+
+Installed /home/dars/kameyama_galactic_ws/build/map_navigation2
+running symlink_data
+creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index
+creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index
+creating /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index/packages
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/resource/map_navigation2 -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/ament_index/resource_index/packages
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/package.xml -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/circle_movement_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/changetopicname_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/world_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/second_move_robot_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/camera_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/picture_tracking_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/tf2twist_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2
+symbolically linking /home/dars/kameyama_galactic_ws/build/map_navigation2/launch/path_uncertainty_launch.py -> /home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2

@@ -1,0 +1,1 @@
+/home/dars/kameyama_galactic_ws/build/cuboid_analysis/ament_cmake_core/cuboid_analysisConfig-version.cmake

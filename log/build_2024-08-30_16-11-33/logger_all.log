@@ -1,0 +1,202 @@
+[1.177s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.177s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f645c1c0370>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f645c1c0370>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f645c108d60>)
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dars/kameyama_galactic_ws'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extensions ['ignore', 'ignore_ament_install']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extension 'ignore'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extension 'ignore_ament_install'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extensions ['colcon_pkg']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extensions ['colcon_meta']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extension 'colcon_meta'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extensions ['ros']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuboid_analysis) by extension 'ros'
+[1.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cuboid_analysis' with type 'ros.ament_cmake' and name 'cuboid_analysis'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extension 'ignore_ament_install'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extensions ['colcon_pkg']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extensions ['colcon_meta']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extension 'colcon_meta'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extensions ['ros']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_navigation2) by extension 'ros'
+[1.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_navigation2' with type 'ros.ament_python' and name 'map_navigation2'
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.560s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dars/kameyama_galactic_ws/install
+[1.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 52 installed packages in /home/dars/ros2_basic_ws/install
+[1.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 300 installed packages in /opt/ros/galactic
+[1.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /opt/ros/noetic
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.814s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_args' from command line to 'None'
+[1.814s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_target' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_clean_cache' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_clean_first' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'cmake_force_configure' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'ament_cmake_args' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'catkin_cmake_args' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'cuboid_analysis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.815s] DEBUG:colcon.colcon_core.verb:Building package 'cuboid_analysis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dars/kameyama_galactic_ws/build/cuboid_analysis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dars/kameyama_galactic_ws/install/cuboid_analysis', 'merge_install': False, 'path': '/home/dars/kameyama_galactic_ws/src/cuboid_analysis', 'symlink_install': False, 'test_result_base': None}
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'map_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.817s] DEBUG:colcon.colcon_core.verb:Building package 'map_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dars/kameyama_galactic_ws/build/map_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dars/kameyama_galactic_ws/install/map_navigation2', 'merge_install': False, 'path': '/home/dars/kameyama_galactic_ws/src/map_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.818s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.823s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dars/kameyama_galactic_ws/src/cuboid_analysis' with build type 'ament_cmake'
+[1.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dars/kameyama_galactic_ws/src/cuboid_analysis'
+[1.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.849s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros2024/devel'
+[1.850s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros/devel'
+[1.851s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/ros2024/devel'
+[1.861s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dars/kameyama_galactic_ws/src/map_navigation2' with build type 'ament_python'
+[1.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_navigation2', 'ament_prefix_path')
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/ament_prefix_path.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/ament_prefix_path.dsv'
+[1.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/ament_prefix_path.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.892s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros2024/devel'
+[1.893s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros/devel'
+[1.894s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/ros2024/devel'
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dars/kameyama_galactic_ws/build/cuboid_analysis': CMAKE_PREFIX_PATH=/home/dars/kameyama_galactic_ws/install/cuboid_analysis:/home/dars/ros2_basic_ws/install/image_pipeline:/home/dars/ros2_basic_ws/install/stereo_image_proc:/home/dars/ros2_basic_ws/install/image_proc:/home/dars/ros2_basic_ws/install/tracetools_image_pipeline:/home/dars/ros2_basic_ws/install/nav2_system_tests:/home/dars/ros2_basic_ws/install/nav2_bringup:/home/dars/ros2_basic_ws/install/slam_toolbox:/home/dars/ros2_basic_ws/install/realsense2_description:/home/dars/ros2_basic_ws/install/realsense2_camera:/home/dars/ros2_basic_ws/install/realsense2_camera_msgs:/home/dars/ros2_basic_ws/install/navigation2:/home/dars/ros2_basic_ws/install/nav2_dwb_controller:/home/dars/ros2_basic_ws/install/nav2_controller:/home/dars/ros2_basic_ws/install/dwb_plugins:/home/dars/ros2_basic_ws/install/dwb_critics:/home/dars/ros2_basic_ws/install/dwb_core:/home/dars/ros2_basic_ws/install/nav_2d_utils:/home/dars/ros2_basic_ws/install/dwb_msgs:/home/dars/ros2_basic_ws/install/nav_2d_msgs:/home/dars/ros2_basic_ws/install/nav2_waypoint_follower:/home/dars/ros2_basic_ws/install/nav2_theta_star_planner:/home/dars/ros2_basic_ws/install/nav2_smac_planner:/home/dars/ros2_basic_ws/install/nav2_rotation_shim_controller:/home/dars/ros2_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/dars/ros2_basic_ws/install/nav2_recoveries:/home/dars/ros2_basic_ws/install/nav2_planner:/home/dars/ros2_basic_ws/install/nav2_navfn_planner:/home/dars/ros2_basic_ws/install/nav2_bt_navigator:/home/dars/ros2_basic_ws/install/nav2_core:/home/dars/ros2_basic_ws/install/costmap_queue:/home/dars/ros2_basic_ws/install/nav2_costmap_2d:/home/dars/ros2_basic_ws/install/nav2_voxel_grid:/home/dars/ros2_basic_ws/install/nav2_rviz_plugins:/home/dars/ros2_basic_ws/install/nav2_map_server:/home/dars/ros2_basic_ws/install/nav2_lifecycle_manager:/home/dars/ros2_basic_ws/install/nav2_behavior_tree:/home/dars/ros2_basic_ws/install/nav2_amcl:/home/dars/ros2_basic_ws/install/nav2_util:/home/dars/ros2_basic_ws/install/nav2_msgs:/home/dars/ros2_basic_ws/install/nav2_common:/home/dars/ros2_basic_ws/install/moveit_msgs:/home/dars/ros2_basic_ws/install/image_view:/home/dars/ros2_basic_ws/install/image_rotate:/home/dars/ros2_basic_ws/install/image_publisher:/home/dars/ros2_basic_ws/install/groot:/home/dars/ros2_basic_ws/install/depth_image_proc:/home/dars/ros2_basic_ws/install/darknet_ros:/home/dars/ros2_basic_ws/install/darknet_ros_msgs:/home/dars/ros2_basic_ws/install/behaviortree_cpp_v3:/home/dars/kameyama_galactic_ws/install/map_navigation2:/home/dars/ros2_basic_ws/install/nav2_simple_commander:/home/dars/ros2_basic_ws/install/nav2_gazebo_spawner:/home/dars/ros2_basic_ws/install/camera_calibration:/opt/ros/galactic:/home/dars/hukumura/ros2024/devel:/home/dars/hukumura/hulumura/ros2024/devel:/home/dars/hukumura/ros/devel:/home/dars/ros2024/devel:/opt/ros/noetic /home/dars/.local/bin/cmake --build /home/dars/kameyama_galactic_ws/build/cuboid_analysis -- -j16 -l16
+[2.874s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dars/kameyama_galactic_ws/src/map_navigation2'
+[2.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.905s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros2024/devel'
+[2.906s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/hukumura/ros/devel'
+[2.907s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/dars/ros2024/devel'
+[2.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dars/kameyama_galactic_ws/build/cuboid_analysis' returned '0': CMAKE_PREFIX_PATH=/home/dars/kameyama_galactic_ws/install/cuboid_analysis:/home/dars/ros2_basic_ws/install/image_pipeline:/home/dars/ros2_basic_ws/install/stereo_image_proc:/home/dars/ros2_basic_ws/install/image_proc:/home/dars/ros2_basic_ws/install/tracetools_image_pipeline:/home/dars/ros2_basic_ws/install/nav2_system_tests:/home/dars/ros2_basic_ws/install/nav2_bringup:/home/dars/ros2_basic_ws/install/slam_toolbox:/home/dars/ros2_basic_ws/install/realsense2_description:/home/dars/ros2_basic_ws/install/realsense2_camera:/home/dars/ros2_basic_ws/install/realsense2_camera_msgs:/home/dars/ros2_basic_ws/install/navigation2:/home/dars/ros2_basic_ws/install/nav2_dwb_controller:/home/dars/ros2_basic_ws/install/nav2_controller:/home/dars/ros2_basic_ws/install/dwb_plugins:/home/dars/ros2_basic_ws/install/dwb_critics:/home/dars/ros2_basic_ws/install/dwb_core:/home/dars/ros2_basic_ws/install/nav_2d_utils:/home/dars/ros2_basic_ws/install/dwb_msgs:/home/dars/ros2_basic_ws/install/nav_2d_msgs:/home/dars/ros2_basic_ws/install/nav2_waypoint_follower:/home/dars/ros2_basic_ws/install/nav2_theta_star_planner:/home/dars/ros2_basic_ws/install/nav2_smac_planner:/home/dars/ros2_basic_ws/install/nav2_rotation_shim_controller:/home/dars/ros2_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/dars/ros2_basic_ws/install/nav2_recoveries:/home/dars/ros2_basic_ws/install/nav2_planner:/home/dars/ros2_basic_ws/install/nav2_navfn_planner:/home/dars/ros2_basic_ws/install/nav2_bt_navigator:/home/dars/ros2_basic_ws/install/nav2_core:/home/dars/ros2_basic_ws/install/costmap_queue:/home/dars/ros2_basic_ws/install/nav2_costmap_2d:/home/dars/ros2_basic_ws/install/nav2_voxel_grid:/home/dars/ros2_basic_ws/install/nav2_rviz_plugins:/home/dars/ros2_basic_ws/install/nav2_map_server:/home/dars/ros2_basic_ws/install/nav2_lifecycle_manager:/home/dars/ros2_basic_ws/install/nav2_behavior_tree:/home/dars/ros2_basic_ws/install/nav2_amcl:/home/dars/ros2_basic_ws/install/nav2_util:/home/dars/ros2_basic_ws/install/nav2_msgs:/home/dars/ros2_basic_ws/install/nav2_common:/home/dars/ros2_basic_ws/install/moveit_msgs:/home/dars/ros2_basic_ws/install/image_view:/home/dars/ros2_basic_ws/install/image_rotate:/home/dars/ros2_basic_ws/install/image_publisher:/home/dars/ros2_basic_ws/install/groot:/home/dars/ros2_basic_ws/install/depth_image_proc:/home/dars/ros2_basic_ws/install/darknet_ros:/home/dars/ros2_basic_ws/install/darknet_ros_msgs:/home/dars/ros2_basic_ws/install/behaviortree_cpp_v3:/home/dars/kameyama_galactic_ws/install/map_navigation2:/home/dars/ros2_basic_ws/install/nav2_simple_commander:/home/dars/ros2_basic_ws/install/nav2_gazebo_spawner:/home/dars/ros2_basic_ws/install/camera_calibration:/opt/ros/galactic:/home/dars/hukumura/ros2024/devel:/home/dars/hukumura/hulumura/ros2024/devel:/home/dars/hukumura/ros/devel:/home/dars/ros2024/devel:/opt/ros/noetic /home/dars/.local/bin/cmake --build /home/dars/kameyama_galactic_ws/build/cuboid_analysis -- -j16 -l16
+[3.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dars/kameyama_galactic_ws/build/cuboid_analysis': CMAKE_PREFIX_PATH=/home/dars/kameyama_galactic_ws/install/cuboid_analysis:/home/dars/ros2_basic_ws/install/image_pipeline:/home/dars/ros2_basic_ws/install/stereo_image_proc:/home/dars/ros2_basic_ws/install/image_proc:/home/dars/ros2_basic_ws/install/tracetools_image_pipeline:/home/dars/ros2_basic_ws/install/nav2_system_tests:/home/dars/ros2_basic_ws/install/nav2_bringup:/home/dars/ros2_basic_ws/install/slam_toolbox:/home/dars/ros2_basic_ws/install/realsense2_description:/home/dars/ros2_basic_ws/install/realsense2_camera:/home/dars/ros2_basic_ws/install/realsense2_camera_msgs:/home/dars/ros2_basic_ws/install/navigation2:/home/dars/ros2_basic_ws/install/nav2_dwb_controller:/home/dars/ros2_basic_ws/install/nav2_controller:/home/dars/ros2_basic_ws/install/dwb_plugins:/home/dars/ros2_basic_ws/install/dwb_critics:/home/dars/ros2_basic_ws/install/dwb_core:/home/dars/ros2_basic_ws/install/nav_2d_utils:/home/dars/ros2_basic_ws/install/dwb_msgs:/home/dars/ros2_basic_ws/install/nav_2d_msgs:/home/dars/ros2_basic_ws/install/nav2_waypoint_follower:/home/dars/ros2_basic_ws/install/nav2_theta_star_planner:/home/dars/ros2_basic_ws/install/nav2_smac_planner:/home/dars/ros2_basic_ws/install/nav2_rotation_shim_controller:/home/dars/ros2_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/dars/ros2_basic_ws/install/nav2_recoveries:/home/dars/ros2_basic_ws/install/nav2_planner:/home/dars/ros2_basic_ws/install/nav2_navfn_planner:/home/dars/ros2_basic_ws/install/nav2_bt_navigator:/home/dars/ros2_basic_ws/install/nav2_core:/home/dars/ros2_basic_ws/install/costmap_queue:/home/dars/ros2_basic_ws/install/nav2_costmap_2d:/home/dars/ros2_basic_ws/install/nav2_voxel_grid:/home/dars/ros2_basic_ws/install/nav2_rviz_plugins:/home/dars/ros2_basic_ws/install/nav2_map_server:/home/dars/ros2_basic_ws/install/nav2_lifecycle_manager:/home/dars/ros2_basic_ws/install/nav2_behavior_tree:/home/dars/ros2_basic_ws/install/nav2_amcl:/home/dars/ros2_basic_ws/install/nav2_util:/home/dars/ros2_basic_ws/install/nav2_msgs:/home/dars/ros2_basic_ws/install/nav2_common:/home/dars/ros2_basic_ws/install/moveit_msgs:/home/dars/ros2_basic_ws/install/image_view:/home/dars/ros2_basic_ws/install/image_rotate:/home/dars/ros2_basic_ws/install/image_publisher:/home/dars/ros2_basic_ws/install/groot:/home/dars/ros2_basic_ws/install/depth_image_proc:/home/dars/ros2_basic_ws/install/darknet_ros:/home/dars/ros2_basic_ws/install/darknet_ros_msgs:/home/dars/ros2_basic_ws/install/behaviortree_cpp_v3:/home/dars/kameyama_galactic_ws/install/map_navigation2:/home/dars/ros2_basic_ws/install/nav2_simple_commander:/home/dars/ros2_basic_ws/install/nav2_gazebo_spawner:/home/dars/ros2_basic_ws/install/camera_calibration:/opt/ros/galactic:/home/dars/hukumura/ros2024/devel:/home/dars/hukumura/hulumura/ros2024/devel:/home/dars/hukumura/ros/devel:/home/dars/ros2024/devel:/opt/ros/noetic /home/dars/.local/bin/cmake --install /home/dars/kameyama_galactic_ws/build/cuboid_analysis
+[3.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuboid_analysis)
+[3.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dars/kameyama_galactic_ws/build/cuboid_analysis' returned '0': CMAKE_PREFIX_PATH=/home/dars/kameyama_galactic_ws/install/cuboid_analysis:/home/dars/ros2_basic_ws/install/image_pipeline:/home/dars/ros2_basic_ws/install/stereo_image_proc:/home/dars/ros2_basic_ws/install/image_proc:/home/dars/ros2_basic_ws/install/tracetools_image_pipeline:/home/dars/ros2_basic_ws/install/nav2_system_tests:/home/dars/ros2_basic_ws/install/nav2_bringup:/home/dars/ros2_basic_ws/install/slam_toolbox:/home/dars/ros2_basic_ws/install/realsense2_description:/home/dars/ros2_basic_ws/install/realsense2_camera:/home/dars/ros2_basic_ws/install/realsense2_camera_msgs:/home/dars/ros2_basic_ws/install/navigation2:/home/dars/ros2_basic_ws/install/nav2_dwb_controller:/home/dars/ros2_basic_ws/install/nav2_controller:/home/dars/ros2_basic_ws/install/dwb_plugins:/home/dars/ros2_basic_ws/install/dwb_critics:/home/dars/ros2_basic_ws/install/dwb_core:/home/dars/ros2_basic_ws/install/nav_2d_utils:/home/dars/ros2_basic_ws/install/dwb_msgs:/home/dars/ros2_basic_ws/install/nav_2d_msgs:/home/dars/ros2_basic_ws/install/nav2_waypoint_follower:/home/dars/ros2_basic_ws/install/nav2_theta_star_planner:/home/dars/ros2_basic_ws/install/nav2_smac_planner:/home/dars/ros2_basic_ws/install/nav2_rotation_shim_controller:/home/dars/ros2_basic_ws/install/nav2_regulated_pure_pursuit_controller:/home/dars/ros2_basic_ws/install/nav2_recoveries:/home/dars/ros2_basic_ws/install/nav2_planner:/home/dars/ros2_basic_ws/install/nav2_navfn_planner:/home/dars/ros2_basic_ws/install/nav2_bt_navigator:/home/dars/ros2_basic_ws/install/nav2_core:/home/dars/ros2_basic_ws/install/costmap_queue:/home/dars/ros2_basic_ws/install/nav2_costmap_2d:/home/dars/ros2_basic_ws/install/nav2_voxel_grid:/home/dars/ros2_basic_ws/install/nav2_rviz_plugins:/home/dars/ros2_basic_ws/install/nav2_map_server:/home/dars/ros2_basic_ws/install/nav2_lifecycle_manager:/home/dars/ros2_basic_ws/install/nav2_behavior_tree:/home/dars/ros2_basic_ws/install/nav2_amcl:/home/dars/ros2_basic_ws/install/nav2_util:/home/dars/ros2_basic_ws/install/nav2_msgs:/home/dars/ros2_basic_ws/install/nav2_common:/home/dars/ros2_basic_ws/install/moveit_msgs:/home/dars/ros2_basic_ws/install/image_view:/home/dars/ros2_basic_ws/install/image_rotate:/home/dars/ros2_basic_ws/install/image_publisher:/home/dars/ros2_basic_ws/install/groot:/home/dars/ros2_basic_ws/install/depth_image_proc:/home/dars/ros2_basic_ws/install/darknet_ros:/home/dars/ros2_basic_ws/install/darknet_ros_msgs:/home/dars/ros2_basic_ws/install/behaviortree_cpp_v3:/home/dars/kameyama_galactic_ws/install/map_navigation2:/home/dars/ros2_basic_ws/install/nav2_simple_commander:/home/dars/ros2_basic_ws/install/nav2_gazebo_spawner:/home/dars/ros2_basic_ws/install/camera_calibration:/opt/ros/galactic:/home/dars/hukumura/ros2024/devel:/home/dars/hukumura/hulumura/ros2024/devel:/home/dars/hukumura/ros/devel:/home/dars/ros2024/devel:/opt/ros/noetic /home/dars/.local/bin/cmake --install /home/dars/kameyama_galactic_ws/build/cuboid_analysis
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis' for CMake module files
+[3.662s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis' for CMake config files
+[3.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuboid_analysis', 'cmake_prefix_path')
+[3.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.ps1'
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.dsv'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.sh'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/bin'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib/pkgconfig/cuboid_analysis.pc'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib/python3.8/site-packages'
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/bin'
+[3.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.ps1'
+[3.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.dsv'
+[3.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.sh'
+[3.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.bash'
+[3.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.zsh'
+[3.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/colcon-core/packages/cuboid_analysis)
+[3.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuboid_analysis)
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis' for CMake module files
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis' for CMake config files
+[3.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuboid_analysis', 'cmake_prefix_path')
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.ps1'
+[4.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/hook/cmake_prefix_path.sh'
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib'
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/bin'
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib/pkgconfig/cuboid_analysis.pc'
+[4.005s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/lib/python3.8/site-packages'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/bin'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.ps1'
+[4.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.dsv'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.sh'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.bash'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/cuboid_analysis/package.zsh'
+[4.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dars/kameyama_galactic_ws/install/cuboid_analysis/share/colcon-core/packages/cuboid_analysis)
+[5.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dars/kameyama_galactic_ws/src/map_navigation2': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data
+[8.480s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2' for CMake module files
+[8.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dars/kameyama_galactic_ws/src/map_navigation2' returned '0': PYTHONPATH=/home/dars/kameyama_galactic_ws/build/map_navigation2/prefix_override:/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_navigation2 build --build-base /home/dars/kameyama_galactic_ws/build/map_navigation2/build install --record /home/dars/kameyama_galactic_ws/build/map_navigation2/install.log --single-version-externally-managed install_data
+[8.484s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2' for CMake config files
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2/lib'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2/bin'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/pkgconfig/map_navigation2.pc'
+[8.487s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2/lib/python3.8/site-packages'
+[8.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_navigation2', 'pythonpath')
+[8.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/pythonpath.ps1'
+[8.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/pythonpath.dsv'
+[8.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/hook/pythonpath.sh'
+[8.492s] Level 1:colcon.colcon_core.environment:checking '/home/dars/kameyama_galactic_ws/install/map_navigation2/bin'
+[8.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_navigation2)
+[8.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/package.ps1'
+[8.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/package.dsv'
+[8.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/package.sh'
+[8.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/package.bash'
+[8.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/dars/kameyama_galactic_ws/install/map_navigation2/share/map_navigation2/package.zsh'
+[8.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dars/kameyama_galactic_ws/install/map_navigation2/share/colcon-core/packages/map_navigation2)
+[8.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.503s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.530s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.579s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dars/kameyama_galactic_ws/install/local_setup.ps1'
+[8.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dars/kameyama_galactic_ws/install/_local_setup_util_ps1.py'
+[8.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dars/kameyama_galactic_ws/install/setup.ps1'
+[8.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dars/kameyama_galactic_ws/install/local_setup.sh'
+[8.598s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dars/kameyama_galactic_ws/install/_local_setup_util_sh.py'
+[8.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dars/kameyama_galactic_ws/install/setup.sh'
+[8.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dars/kameyama_galactic_ws/install/local_setup.bash'
+[8.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dars/kameyama_galactic_ws/install/setup.bash'
+[8.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dars/kameyama_galactic_ws/install/local_setup.zsh'
+[8.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dars/kameyama_galactic_ws/install/setup.zsh'

@@ -1,0 +1,4 @@
+source;share/cuboid_analysis/local_setup.bash
+source;share/cuboid_analysis/local_setup.dsv
+source;share/cuboid_analysis/local_setup.sh
+source;share/cuboid_analysis/local_setup.zsh

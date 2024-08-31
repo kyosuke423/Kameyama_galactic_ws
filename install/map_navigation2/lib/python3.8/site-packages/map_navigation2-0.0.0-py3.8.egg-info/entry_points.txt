@@ -1,0 +1,10 @@
+[console_scripts]
+camera = map_navigation2.camera:main
+changetopicname = map_navigation2.changetopicname:main
+circle_movement = map_navigation2.circle_movement:main
+move_robot = map_navigation2.move_robot:main
+path_uncertainty = map_navigation2.path_uncertainty:main
+picture_tracking = map_navigation2.picture_tracking:main
+second_move_robot = map_navigation2.second_move_robot:main
+tf2twist = map_navigation2.tf2twist:main
+world = map_navigation2.world:main
